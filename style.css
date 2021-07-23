@@ -1,0 +1,44 @@
+element.style {
+}
+#toolbar-administration, #toolbar-administration * {
+    box-sizing: border-box;
+}
+body.toolbar-fixed .toolbar-oriented .toolbar-bar {
+    position: fixed;
+}
+.toolbar .toolbar-bar {
+    color: #ddd;
+    background-color: #0f0f0f;
+    box-shadow: -1px 0 3px 1px rgba(0,0,0,0.3333);
+}
+.toolbar-oriented .toolbar-bar {
+    z-index: 502;
+}
+.toolbar-oriented .toolbar-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.toolbar .toolbar-bar, .toolbar .toolbar-tray {
+    position: relative;
+    z-index: 1250;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+#toolbar-administration {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: small;
+    line-height: 1;
+}
+
+.toolbar {
+    font-family: "Source Sans Pro","Lucida Grande",Verdana,sans-serif;
+    font-size: 0.8125rem;
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    -o-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
